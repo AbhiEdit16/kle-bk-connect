@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-kle-maroon: #8B1E3F;
+  --color-kle-gold: #D4AF37;
+  --color-kle-orange: #F97316;
+  --color-kle-cream: #F8F3E7;
+  --color-kle-dark: #2C2C2C;
+  --font-sans: 'Poppins', sans-serif;
+}
+
+body {
+  @apply bg-kle-cream text-kle-dark font-sans;
+}
